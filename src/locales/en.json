@@ -1,0 +1,11 @@
+{
+  "QuestionsEdit": {
+    "btn": {
+      "sendToStudents": "Send to students",
+      "saveDraft": "Save draft"
+    }
+  },
+  "Titlebar": {
+    "subtitle": "Select questions"
+  }
+}

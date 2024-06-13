@@ -1,0 +1,33 @@
+{
+  "name": "Ogma",
+  "slug": "ogma",
+  "icon": "icon.svg",
+  "categories": [],
+  "version": "0.1.0",
+  "licence": "AGPL-3.0",
+  "editor": "",
+  "source": "https://github.com/cozy/ogma.git@build",
+  "developer": {
+    "name": "Cozy Cloud",
+    "url": "https://cozy.io"
+  },
+  "routes": {
+    "/": {
+      "folder": "/",
+      "index": "index.html",
+      "public": false
+    }
+  },
+  "permissions": {
+    "apps": {
+      "description": "Required by the cozy-bar to display the icons of the apps",
+      "type": "io.cozy.apps",
+      "verbs": ["GET"]
+    },
+    "settings": {
+      "description": "Required by the cozy-bar to display Claudy and know which applications are coming soon",
+      "type": "io.cozy.settings",
+      "verbs": ["GET"]
+    }
+  }
+}

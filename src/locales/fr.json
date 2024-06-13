@@ -1,0 +1,11 @@
+{
+  "QuestionsEdit": {
+    "btn": {
+      "sendToStudents": "Transmettre aux élèves",
+      "saveDraft": "Enregistrer brouillon"
+    }
+  },
+  "Titlebar": {
+    "subtitle": "Sélectionner les questions"
+  }
+}
